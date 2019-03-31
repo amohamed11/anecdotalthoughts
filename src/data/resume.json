@@ -1,0 +1,80 @@
+{
+  "basics": {
+    "name": "Anas Mohamed",
+    "label": "Software Developer",
+    "email": "mailto:amohamed@ualberta.ca",
+    "phone": "(780) 915-9993",
+    "website": "https://amohamed.io",
+    "summary": "Hi there, I am a student at UAlberta majoring in Computing Science. I like Programming stuff, and doing things. Feel free to contact me.",
+    "location": {
+      "city": "Edmonton",
+      "region": "Alberta",
+      "country": "Canada"
+    },
+    "profiles": [{
+      "network": "Github",
+      "url": "https://github.com/amohamed11"
+    },{
+      "network": "Linkedin",
+      "url": "https://www.linkedin.com/in/amohamed11/"
+    }]
+  },
+  "work": [{
+    "company": "DevFacto",
+    "position": "Junior Developer/Consultant",
+    "website": "http://devfacto.com",
+    "startDate": "2019-01-14",
+    "endDate": "2019-08-31",
+    "summary": "To be added",
+    "highlights": [
+      "To be added"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "University of Alberta Open House",
+    "position": "Computing Science Booth",
+    "startDate": "2017-10-26",
+    "endDate": "2017-10-26",
+    "summary": "Answered the questions of prospective students, and explained what Computing Science as major entails."
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Computing Science",
+    "studyType": "Bachelor of Science with Specialization",
+    "startDate": "2016-09-08",
+    "endDate": "2021-04-31",
+    "majorGPA": "3.06/4.0",
+    "courses": [
+      "CMPUT 301 - Intro to Software Engineering",
+      "CMPUT 379 - Operating System Concepts",
+      "CMPUT 366 - Intro to Intelligent Systems",
+      "CMPUT 201 - Data Structures & Algorithms"
+    ]
+  }],
+  "skills": [{
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++",
+        "TypeScript",
+        "C#"
+      ]
+    },{
+      "name": "Tools/Frameworks",
+      "keywords": [
+        ".NET Core",
+        "React",
+        "Source Control (Git & TVFC)",
+        "Android SDK"
+      ]
+    },{
+      "name": "Database Managment",
+      "keywords": [
+        "SQL Server",
+        "CosmoDB",
+        "Sqlite3"
+      ]
+    }
+  ]
+}
