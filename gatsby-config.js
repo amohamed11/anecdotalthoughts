@@ -1,11 +1,20 @@
 module.exports = {
+  pathPrefix: `/`,
   siteMetadata: {
-    name: `Hello Typescript World!`,
-    tagline: `Gatsby + SASS + Typescript = 💪`
-  },  
+    name: `Anas Mohamed`,
+    tagline: `Hey, there`
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-tslint`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: `data`,
+      },
+    },
   ],
 }

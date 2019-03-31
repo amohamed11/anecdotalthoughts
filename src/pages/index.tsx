@@ -1,13 +1,22 @@
-import { graphql } from 'gatsby';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee, faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { graphql, Link, withPrefix } from 'gatsby';
 import * as React from 'react';
-import * as styles from './Index.module.scss';
+import * as styles from './styles/Index.module.scss';
 
 interface IndexPageProps {
   data: {
-    site: {
-      siteMetadata: {
+    dataJson: {
+      basics: {
         name: string;
-        tagline: string;
+        label: string;
+        summary: string;
+        email: string;
+        profiles: [{
+          network: string;
+          url: string;
+        }]
       },
     },
   };
@@ -15,10 +24,16 @@ interface IndexPageProps {
 
 export const indexPageQuery = graphql`
   query IndexPageQuery {
-    site {
-      siteMetadata {
+    dataJson {
+      basics {
         name
-        tagline
+        label
+        summary
+        email
+        profiles{
+          network
+          url
+        }
       }
     }
   }
@@ -29,13 +44,32 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
   public render() {
     const {
       name,
-      tagline,
-    } = this.props.data.site.siteMetadata;
+      label,
+      summary,
+      email,
+      profiles,
+    } = this.props.data.dataJson.basics;
 
     return (
       <div className={styles.Container}>
-        <h1>{name}</h1>
-        <p>{tagline}</p>
+        <h1>{name} <FontAwesomeIcon icon={faCoffee}/> </h1>
+        <h3>{label}</h3>
+        <h4>{summary}</h4>
+
+        <div className="footer">
+          <a href={email}>
+            <FontAwesomeIcon icon={faEnvelope} title="Email me about stuff" size="2x"/>
+          </a>
+          <a href={profiles[0].url}>
+            <FontAwesomeIcon icon={faGithub} title="Check out the things I do" size="2x"/>
+          </a>
+          <a href={profiles[1].url}>
+            <FontAwesomeIcon icon={faLinkedinIn} title="Stalk me on professional facebook" size="2x"/>
+          </a>
+          <a href="/resume.html" >
+            <FontAwesomeIcon icon={faFileAlt} title="Stalk me on professional facebook" size="2x"/>
+          </a>
+        </div>
       </div>
     );
   }
