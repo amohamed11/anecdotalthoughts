@@ -4,8 +4,13 @@
   font-family: 'PoppinsLight'; 
   font-weight: normal; 
   font-style: normal;
-  max-width: 60rem;
-  margin: 3rem 3rem 0;
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  @media only screen and (max-width: 1024px) {
+    position: initial;
+    margin: 3rem 3rem 0;
+  }
   
   h1 {
     color: #333;
