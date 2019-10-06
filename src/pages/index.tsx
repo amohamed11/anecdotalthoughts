@@ -11,6 +11,7 @@ interface IndexPageProps {
       basics: {
         name: string;
         label: string;
+        title: string;
         summary: string;
         email: string;
         profiles: [{
@@ -28,6 +29,7 @@ export const indexPageQuery = graphql`
       basics {
         name
         label
+        title
         summary
         email
         profiles{
@@ -45,6 +47,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     const {
       name,
       label,
+      title,
       summary,
       email,
       profiles,
@@ -53,7 +56,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     return (
       <div className={styles.Container}>
         <h1>{name} <FontAwesomeIcon icon={faCoffee}/> </h1>
-        <h3>{label}</h3>
+        <h3>{label} | {title}</h3>
         <h4>{summary}</h4>
 
         <div className="footer">
