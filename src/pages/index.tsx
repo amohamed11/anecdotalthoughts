@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
           <a href={profiles[1].url}>
             <FontAwesomeIcon icon={faLinkedinIn} title="Stalk me on professional facebook" size="2x"/>
           </a>
-          <a href="/resume.html" >
+          <a href="/Resume.pdf" >
             <FontAwesomeIcon icon={faFileAlt} title="Check out this cool resume" size="2x"/>
           </a>
         </div>
