@@ -53,10 +53,9 @@ query {
   line-height: 25px;
   padding: 0.7em;
 }
-
 .header h2 {
   font-weight: 200;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 30px;
 }
 </style>

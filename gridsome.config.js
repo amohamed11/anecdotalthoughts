@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Anas Mohamed',
   siteDescription: 'Computing Science student at UAlberta. <br/> \
-  I dig things, and like to write stuff. <br/> \
+  I do things, and like to learn stuff. <br/> \
   Times Person of the Year 2006.',
   plugins: [
     {

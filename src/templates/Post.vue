@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <br>
-    <g-link to="/" class="link">  &larr; Go Back</g-link>
+    <g-link to="/" class="back-link">  &larr; Go Back</g-link>
     <div class="post-title">
       <h1>{{$page.post.title}}</h1>
       <p class="post-date"> {{ $page.post.date}} | {{$page.post.timeToRead}} min read</p>
@@ -25,6 +25,13 @@ query Post ($path: String!) {
 </page-query>
 
 <style>
+.back-link {
+  border: 2px dashed rgb(254, 205, 67);
+  color: #333;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 .post-title {
   text-align: center;
