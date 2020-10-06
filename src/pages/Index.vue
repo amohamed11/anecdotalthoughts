@@ -7,13 +7,13 @@
     </header>
     <section class="links">
       <a href="https://github.com/amohamed11">
-        <font-awesome :icon="['fab', 'github']" size="lg" title="GitHub"/>
+        <font-awesome :icon="['fab', 'github']" size="2x" title="GitHub"/>
       </a>
       <a href="https://www.linkedin.com/in/amohamed11/">
-        <font-awesome :icon="['fab', 'linkedin']" size="lg" title="Linkedin"/>
+        <font-awesome :icon="['fab', 'linkedin']" size="2x" title="Linkedin"/>
       </a>
       <g-link  href="Resume.pdf">
-        <font-awesome :icon="['fas', 'file-alt']" size="lg" title="Resume"/>
+        <font-awesome :icon="['fas', 'file-alt']" size="2x" title="Resume"/>
       </g-link>
     </section>
   </Layout>
@@ -44,21 +44,21 @@ query {
 <style>
 .header {
   font-family: "Quicksand";
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
   line-height: 24px;
-  padding: 2em 2em;
+  padding: 5em 2em 0;
 }
 .header h2 {
   font-weight: 200;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 24px;
+  line-height: 32px;
 }
 .links {
   text-align: center;
 }
 img {
-  width: 140px;
+  width: 280px;
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
   border-radius: 100%;
 }

@@ -16,9 +16,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  min-height: 100vh;
-  border: 20px solid #c5e3f6;
-  outline: 20px solid black;
+  min-height: 90vh;
+  border: 44px solid #c5e3f6;
 }
 
 .layout {
@@ -29,9 +28,9 @@ body {
 }
 
 .footer {
-  padding-top: 14em;
+  padding-top: 20em;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .link {

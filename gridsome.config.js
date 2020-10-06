@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Anas Mohamed',
   siteDescription: 'Computing Science student at UAlberta.<br/>Times Person of the Year 2006.<br/>I like to program & stuff.',
+  siteUrl: 'http://amohamed.io',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
