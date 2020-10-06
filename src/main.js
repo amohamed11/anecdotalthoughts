@@ -5,13 +5,12 @@ import DefaultLayout from '~/layouts/Default.vue'
 import 'prismjs/themes/prism.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import '~/assets/dark-mode.css'
-import '~/assets/toggle.css'
 
 config.autoAddCss = false;
-library.add(faGithub, faTwitter)
+library.add(faGithub, faLinkedin, faFileAlt)
 
 
 export default function (Vue, { router, head, isClient }) {

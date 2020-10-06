@@ -6,9 +6,7 @@
 
 module.exports = {
   siteName: 'Anas Mohamed',
-  siteDescription: 'Computing Science student at UAlberta. <br/> \
-  I do things, and like to learn stuff. <br/> \
-  Times Person of the Year 2006.',
+  siteDescription: 'Computing Science student at UAlberta.<br/>Times Person of the Year 2006.<br/>I like to program & stuff.',
   plugins: [
     {
       use: '@gridsome/source-filesystem',

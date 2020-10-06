@@ -1,9 +1,5 @@
 <template>
   <main class="layout" role="main">
-    <div class="layout-header">
-      <input class="tgl tgl-light" id="cb1" type="checkbox"/>
-      <label class="tgl-btn" for="cb1"></label>
-    </div>
     <slot/>
     <div class="footer">
       <p>
@@ -21,8 +17,8 @@ body {
   padding: 0;
   line-height: 1.5;
   min-height: 100vh;
-  /* border: 10px solid black; */
-  /* outline: 20px solid black; */
+  border: 20px solid #c5e3f6;
+  outline: 20px solid black;
 }
 
 .layout {
@@ -33,20 +29,11 @@ body {
 }
 
 .footer {
-  padding-top: calc(30em / 4);
+  padding-top: 14em;
   text-align: center;
   font-size: 1em;
 }
 
-.layout-header {
-  float: right;
-  margin: 10px;
-  font-size: 0.8em;
-}
-
-.layout-header p {
-  margin-bottom: 0;
-}
 .link {
   /* border: 2px dashed rgb(254, 205, 67); */
   color: #333;
