@@ -12,7 +12,7 @@
       <a href="https://www.linkedin.com/in/amohamed11/">
         <font-awesome :icon="['fab', 'linkedin']" size="2x" title="Linkedin"/>
       </a>
-      <g-link  href="Resume.pdf">
+      <g-link  href="Anas Mohamed's Resume.pdf" target="_blank">
         <font-awesome :icon="['fas', 'file-alt']" size="2x" title="Resume"/>
       </g-link>
     </section>
