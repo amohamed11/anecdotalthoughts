@@ -1,6 +1,6 @@
 <template>
   <main class="layout" role="main">
-    <slot/>
+    <slot />
     <div class="footer">
       <p>
         Made with ☕
@@ -16,8 +16,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  min-height: 90vh;
-  border: 44px solid #c5e3f6;
+  min-height: 100vh;
+  border: 20px solid #0288d1;
 }
 
 .layout {
@@ -30,7 +30,7 @@ body {
 .footer {
   padding-top: 20em;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 20px;
 }
 
 .link {

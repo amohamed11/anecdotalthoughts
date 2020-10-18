@@ -44,21 +44,21 @@ query {
 <style>
 .header {
   font-family: "Quicksand";
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
-  line-height: 24px;
-  padding: 5em 2em 0;
+  line-height: 20px;
+  padding-top: 2em;
 }
 .header h2 {
   font-weight: 200;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 24px;
 }
 .links {
   text-align: center;
 }
 img {
-  width: 280px;
+  width: 200px;
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
   border-radius: 100%;
 }
