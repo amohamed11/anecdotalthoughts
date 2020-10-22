@@ -17,18 +17,18 @@ body {
   padding: 0;
   line-height: 1.5;
   min-height: 100vh;
-  border: 20px solid #0288d1;
 }
 
 .layout {
-  max-width: 900px;
+  min-height: 96vh;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  border: 2vh solid #0288d1;
 }
 
 .footer {
-  padding-top: 20em;
+  padding-top: 40vh;
   text-align: center;
   font-size: 20px;
 }
