@@ -1,10 +1,12 @@
 <template>
   <main class="layout" role="main">
-    <slot />
-    <div class="footer">
-      <p>
-        Made with ☕
-      </p>
+    <div class="container">
+      <slot />
+      <div class="footer">
+        <p>
+          Made with ☕
+        </p>
+      </div>
     </div>
   </main>
 </template>
@@ -21,10 +23,14 @@ body {
 
 .layout {
   min-height: 96vh;
+  border: 2vh solid #0288d1;
+}
+
+.container {
+  max-width: 900px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  border: 2vh solid #0288d1;
 }
 
 .footer {
@@ -38,7 +44,7 @@ body {
   color: #333;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: #a722ee;
+  text-decoration-color: #0288d1;
 }
 .link:hover {
   text-decoration-color: #c75fff;

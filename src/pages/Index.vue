@@ -16,6 +16,13 @@
         <font-awesome :icon="['fas', 'file-alt']" size="2x" title="Resume"/>
       </g-link>
     </section>
+    <section class="posts">
+      <PostList
+        v-for="edge in $page.allPost.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
+    </section>
   </Layout>
 </template>
 
@@ -38,6 +45,19 @@ query {
     siteName
     siteDescription
   }
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        timeToRead
+        description
+        date (format: "D MMMM YYYY")
+        path
+      }
+    }
+  }
 }
 </page-query>
 
@@ -57,12 +77,12 @@ query {
 .links {
   text-align: center;
 }
+.links a {
+  padding: 1em;
+}
 img {
   width: 200px;
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
   border-radius: 100%;
-}
-a {
-  padding: 1em;
 }
 </style>
