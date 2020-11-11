@@ -14,7 +14,8 @@ Every once and a while I go on a tech talk binge. Below are some of my recent fa
 
 [![Thumbnail for The Art of Code video](https://i1.ytimg.com/vi/6avJHaC3C2U/hqdefault.jpg)](https://www.youtube.com/watch?v=6avJHaC3C2U)
 
-Like most programmers, I think of coding only for the sake productivity. Whether it be work, school, or side projects, they are done for an external reason. Dylan Beattie instead explores coding as an art form and provides examples of wild things that people have created in their free-time. My favorite example was the Quine Relay, a program that generates a program in different programming language which itself does the same for a cycle that cover 128 programming languages. This talk is just non-stop mind-blowing demonstrations of human creativity in this tech era.
+Like most programmers, I think of coding only in the context of productivity. Whether it be work, school, or side projects, they are done for an external benefit or to solve a problem. Dylan Beattie instead explores coding as an art medium. He goes through many examples of the wild things that people have created. My favorite being the Quine Relay, a program that generates a program in different programming language which itself does the same for a continuous cycle that cover 128 programming languages.  
+This talk is just non-stop mind-blowing demonstrations of human creativity in this tech era.
 
 ### Clean Code - Uncle Bob
 
@@ -22,7 +23,8 @@ Like most programmers, I think of coding only for the sake productivity. Whether
 
 
 
-A series of 6 lessons by Robert C. Martin (affectionately referred to as Uncle Bob). I just started on this series of lessons recently, but as always listening to Uncle Bob is nothing short of mesmerizing. There are few in the industry with the knowledge and expertise in software development like Uncle Bob, and even fewer that articulate that knowledge as well as he does. If you are unfamiliar with Uncle Bob, I recommend checking out his book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) and my favorite talk of his [The Scribe's Oath](https://www.youtube.com/watch?v=Tng6Fox8EfI).  
+A series of 6 lessons by Robert C. Martin (affectionately referred to as Uncle Bob). I just started on this series of lessons recently, but as always listening to Uncle Bob is nothing short of mesmerizing. There are few in the industry with the knowledge and expertise in software development like Uncle Bob, and even fewer that articulate that knowledge as well as he does.   
+If you are unfamiliar with Uncle Bob, I recommend checking out his book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) and my favorite talk of his [The Scribe's Oath](https://www.youtube.com/watch?v=Tng6Fox8EfI).  
 
 ### Compilers For Nothing, Executables For Free!
 
@@ -30,7 +32,6 @@ A series of 6 lessons by Robert C. Martin (affectionately referred to as Uncle B
 
 Lastly, a short (coming in at 8 minutes only) and fun talk that descends down the rabbit-hole that is specializers (specialized interpreters), all in the name of what's right & Vim.
 
-  
 
 ## Video Games
 
@@ -39,13 +40,12 @@ A few of these games came out last year, but I was only able to get around to th
 ### Outer Wilds
 <img src="https://miro.medium.com/max/3840/1*Lk6UVU_p_XlQCck_EmdInQ@2x.jpeg" />
 
-With risk of sounding hyperbolic, this is probably my favorite game of all-time now. And that statement has remained the same since I finished it in January. This game interweaves story and exploration in such a unique and delightful manner. 
+With the risk of sounding hyperbolic, this is probably my favorite game of all-time now. And that statement has remained the same since I finished it in January. The way Outer Wilds interweaves story and exploration in such a unique and delightful manner is an experience to be had. 
 
-Personally I've never been one for exploration, but that was simply a matter of reward-feedback. Exploring for the sake of exploring - though fun - just didn't strike me as enjoyable as following a good storyline is. And this game combines that two so that you are rewarded two-fold when you explore, once for the amazing and unique planetary design, and once for the story bits that you pick up on along the way. 
+Personally I've never been one for exploration, but that was because usually that directly interfered with my progress in the story. Exploring for the sake of exploring - though fun - just doesn;t strike me as enjoyable as unpeeling a good storyline is. And Outer Wilds manages to combine exploration directly with the story. So this way, you are rewarded two-fold when you explore, once for the amazing and unique planetary design that is a scene to behold, and once for the story bits that you pick up on along the way. 
 
-Overall, it is an absolute masterpiece in narrative and non-linear story-telling.  
+Overall, Outer Wilds is just an absolute masterpiece in narrative and non-linear story-telling. And to me it is a testement to the unique storytelling capabilities of video games. I simply cannot recommend this game enough.  
 
-## 
 
 ### Baba Is You
 <img src="https://www.nintendo.com/content/dam/noa/en_US/games/switch/b/baba-is-you-switch/baba-is-you-switch-hero.jpg" />
