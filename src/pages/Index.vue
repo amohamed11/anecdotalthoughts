@@ -2,8 +2,12 @@
   <Layout>
     <header class="header">
       <g-image src="@/assets/Me.png" fit="cover" quality="75" immediate="true"/>
-      <h1 v-html="$page.metaData.siteName" /> 
-      <h2 v-html="$page.metaData.siteDescription" />
+      <h1 v-html="$page.metadata.siteName" /> 
+      <h2>
+        Computing Science student at UAlberta.
+        <br/>Times Person of the Year 2006.
+        <br/>I like to program and stuff.
+      </h2>
     </header>
     <section class="links">
       <a href="https://github.com/amohamed11">
@@ -34,16 +38,15 @@ export default {
     PostList
   },
   metaInfo: {
-    title: "Anas Mohamed"
+    title: "Anas Mohamed | sometimes blog"
   }
 };
 </script>
 
 <page-query>
 query {
-  metaData {
+  metadata {
     siteName
-    siteDescription
   }
   allPost {
     totalCount
@@ -57,6 +60,7 @@ query {
         path
       }
     }
+
   }
 }
 </page-query>
@@ -80,7 +84,7 @@ query {
 .links a {
   padding: 1em;
 }
-img {
+.header img {
   width: 200px;
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
   border-radius: 100%;

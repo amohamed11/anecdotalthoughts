@@ -6,14 +6,15 @@
 
 module.exports = {
   siteName: 'Anas Mohamed',
-  siteDescription: 'Computing Science student at UAlberta.<br/>Times Person of the Year 2006.<br/>I like to program & stuff.',
+  templates: {
+    Post: '/blog/:title',
+  },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/posts/**/*.md',
-        typeName: 'Post',
-        route: '/blog/:slug'
+        typeName: 'Post'
       }
     }
   ],

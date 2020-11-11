@@ -49,4 +49,7 @@ query Post ($path: String!) {
 .post-content {
   font-size: 20px;
 }
+.post-content img {
+  width: 600px;
+}
 </style>
