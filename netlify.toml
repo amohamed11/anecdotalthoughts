@@ -1,5 +1,0 @@
-[build]
-
-command = "yarn build"
-publish = "dist"
-environment = { NODE_VERSION = "10" }
