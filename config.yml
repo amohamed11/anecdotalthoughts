@@ -48,7 +48,7 @@ params:
     threshold: 0.4
   hidemeta: false
   homeInfoParams:
-    Content: 'My name is Anas, and I''m currently wrapping up my CS degree at UAlberta.
+    Content: 'My name is Anas, and I''m currently wrapping up my CS degree at UAlberta
       I enjoy mucking about & learning new stuff. This blog is to document some of
       those learnings & the things that I enjoyed.'
     Title: About
@@ -62,6 +62,8 @@ params:
       url: https://github.com/amohamed11
     - name: linkedin
       url: https://www.linkedin.com/in/amohamed11/
+    - name: other
+      url: https://raw.githubusercontent.com/amohamed11/amohamed.io/resume/Resume.pdf
   title: 'Anas Mohamed'
   tocopen: false
 theme: PaperMod
