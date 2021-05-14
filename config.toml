@@ -36,6 +36,7 @@ weight = 4
 [params]
   logo = "favicon.png"
   favicon = "favicon.ico"
+  netlify = true
 
   colortheme = "light" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
