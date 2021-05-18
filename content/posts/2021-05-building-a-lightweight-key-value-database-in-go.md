@@ -182,3 +182,9 @@ With that implemented - code is too long to showcase here - we can now run our t
 
 We got just two things left, and we got a fully functional key-value database, deletion & index maintenance. I plan to wrap up this features soon, and perhaps add a "Space" functionality to group a set of keys together. But this we'll have to do for now.\
 If you've read this far, first of all thank you, and second, if you have any feedback please do feel free to contact me about it.
+
+## Resources:
+
+* A fantastic B+Tree visualizer: <https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html>  
+* Chapter from "Database Internals" by Alex Petrov on implementing on-disk B+Tree: <https://www.oreilly.com/library/view/database-internals/9781492040330/ch04.html>  
+* Look into Oracle B+Tree indexing: <http://web.archive.org/web/20161221112438/http://www.toadworld.com/platforms/oracle/w/wiki/11001.oracle-b-tree-index-from-the-concept-to-internals>
