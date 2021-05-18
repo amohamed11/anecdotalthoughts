@@ -110,7 +110,7 @@ type Leaf struct {
 }
 ```
 
-### But first, some tests
+## But first, some tests
 
 With the Node struct done, we can start on B+Tree operations. But first, tests. Below is a simple test for setting/getting 100 key-value pairs. The test generates random values to use for key & value, each 5 bytes. 
 
