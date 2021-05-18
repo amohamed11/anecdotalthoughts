@@ -11,7 +11,7 @@ ShowToc: true
 This will be more of a high-level technical overview of key-value database design. 
 For more lower-level insight into the nitty & gritty, checkout my Github repo: <https://github.com/amohamed11/kagi>
 
-## Why build a database?
+## Why build Kagi?
 
 About a year and a half ago, I decided to take Databases II. And as soon as the first assignment, a run-of-the-mill embedded SQL assignment, was released, I remember thinking "why can't we just create a database instead". So this past holiday, I thought I'd finally sit down and do just that.
 
@@ -29,9 +29,9 @@ For this, ironically, I ended up pulling out my lecture notes from said Database
 As you can already probably tell, database can get pretty complicated. But thankfully for a simple key-value database, we can focus on the first & the last parts to create a functional key-value store.\
 Given my familiarity with B+Tree, it was an obvious choice to allow me to focus on the on-disk aspect. 
 
-## Our Database connection
+## Representing a database connection
 
-First off, we need to create a struct that contains all the necessary elements for a Kagi DB connection. First thing is the DB file itself. Since we are using a tree, we only need to track the root node for it. Other than that we have a single mutex for the DB and 2 loggers, one for general info, the other for fatal errors. With that we have this representation for a DB connection
+First off, we need to create a struct that contains all the necessary elements for a Kagi DB connection. First thing is the DB file itself. Since we are using a tree, we only need to track the root node for it. Other than that we have a single mutex for the DB, and 2 loggers, one for general info, the other for fatal errors. With that we have this representation for a DB connection
 
 ```go
 type DB_CONNECTION struct {
@@ -67,7 +67,7 @@ const (
 )
 ```
 
-### Constructing our Node
+## Constructing our node
 
 With our byte constraints set, we can setup our Node structure. One of the more confusing aspects of this project was in fact managing all the offsets necessary. In the end, it took some trial & error to figure out which offsets were necessary, and which were just waste of space.
 
@@ -110,9 +110,9 @@ type Leaf struct {
 }
 ```
 
-### Reading/Writing an on-disk Node 
+### But first, some tests
 
-With the Node struct set, we can start on B+Tree operations. The first is writing a node to the DB file in the correct offset. But first, tests. Below is a simple test for setting/getting 100 key-value pairs. The test generates random values to use for key & value, each 5 bytes. 
+With the Node struct done, we can start on B+Tree operations. But first, tests. Below is a simple test for setting/getting 100 key-value pairs. The test generates random values to use for key & value, each 5 bytes. 
 
 ```go
 func TestSet100Keys(t *testing.T) {
@@ -149,6 +149,36 @@ func TestGet100Keys(t *testing.T) {
 }
 ```
 
-Next, I worked on the tree traversal. Traversing the tree is pretty straightforward. Starting from the root node (which the DB always knows), you recursively traverse using child offsets depending using the given key to direct our direction.   
+Now, thanks to TDD, we work on flipping those failing tests upside down. 
 
-*Discuss on a high level B+Tree updates including splitting*
+## Traversing the on-disk tree
+
+First operation up is tree traversal. Traversing the on-disk B+tree is pretty similar to in-memory, with a slight twist. You start at the root node (which the DB always knows), then recursively traverse using child offsets - instead of pointers - with keys as direction markers.  Below is a representation of a B+Tree, we substitute the pointers with offsets for the implementation.
+
+![Representation of the tree](/img/tree.png "Representation of the tree")
+
+## Updating the on-disk tree
+
+Now that we can freely traverse our tree, we move onto updating it. For adding a new key-value pair, we first find which node it fits into by traversing the tree. Once we insert the new data in the node's bucket, there are 2 scenarios:
+
+1. If it's not full, then we are done.
+2. If it's full, then we have to split the node up.
+
+### Splitting a node up
+
+If we ever fill up a node (number of keys equal `Order`), we split up the node into 3 nodes. In summary follow this basic algorithm:
+
+1. Splits leaves into 3 parts.
+2. Middle becomes a branching node.
+3. Left & Right become child nodes of the Middle.
+4. Add middle node as child to parent.
+5. If parent is now full, split parent node as well.
+
+With that implemented - code is too long to showcase here - we can now run our tests to get those sweet sweet passes.
+
+![Passing tests](/img/tests_pass.png "Passing tests")
+
+## On next episode
+
+We got just two things left, and we got a fully functional key-value database, deletion & index maintenance. I plan to wrap up this features soon, and perhaps add a "Space" functionality to group a set of keys together. But this we'll have to do for now.\
+If you've read this far, first of all thank you, and second, if you have any feedback please do feel free to contact me about it.
