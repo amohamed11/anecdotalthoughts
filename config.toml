@@ -1,70 +1,84 @@
 baseURL = "https://amohamed.io"
 languageCode = "en-us"
 title = "Anas Mohamed"
-theme = "cactus"
-copyright = "Anas Mohamed" # cactus will use title if copyright is not set
+theme = "lines"
+disableKinds = ["section", "categories"]
+disqusShortname = ""
+pygmentsCodeFences = false
+pygmentsUseClasses = false
+paginate = 999
+minify = true
 
-# summaryLength = 2
 
-# Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+[taxonomies]
+  tag = "tags"
 
-[[menu.main]]
-name = "Archive"
-url = "/posts"
-weight = 2
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "Resume"
-url = "https://raw.githubusercontent.com/amohamed11/amohamed.io/resume/Resume.pdf"
-weight = 4
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+[Author]
+  name = "Anas Mohamed"
 
 [params]
-  logo = "favicon.png"
-  favicon = "favicon.ico"
-  netlify = true
+  description = "Anecdotal Thoughts"
+  author = "Anas Mohamed"
+  copyright = "Anas Mohamed"
+  logo = "favicon.ico"
 
-  colortheme = "white" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
+[frontmatter]
+  date  = [":filename", ":default"]
+  author = "Anas Mohamed"
+  github = "https://github.com/amohamed11"
+  sitename = "Anas Mohamed"
 
-  # Home page settings
-  description = "My name is Anas, and I recently finished wrapping up my CS degree at UAlberta. I enjoy mucking about & learning new stuff. This blog is to document some of those learnings & other things that I find interesting."
-  mainSection = "posts" # your main section
-  showAllPostsOnHomePage = false # default
-  postsOnHomePage = 4 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = false # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/amohamed11" # title link for projects list
+[permalinks]
+  posts = "/:filename"
+  pages = "/:slug"
+  photos = "/:year/:month/:day/:filename"
 
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
 
-  # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
 
-  [params.comments]
-    enabled = false # default
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
 
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/amohamed11"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/amohamed11/"
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = -111
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = -20
+
+  [[menu.main]]
+    identifier = "rss"
+    name       = "RSS"
+    url        = "/atom.xml"
+    weight     = -10

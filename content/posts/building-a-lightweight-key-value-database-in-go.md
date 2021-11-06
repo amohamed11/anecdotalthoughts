@@ -3,8 +3,8 @@ title: Building a Lightweight Key-Value Database in Go
 description: On-disk B+trees & other midly extreme sports.
 date: 2021-05-18T23:12:25.004Z
 tags:
-  - side-project
-  - database-design
+  - project
+  - databases
   - go
 ShowToc: true
 ---
