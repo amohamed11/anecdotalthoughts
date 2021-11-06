@@ -14,6 +14,3 @@ fields:
 - type: list
   name: tags
   label: tags
-- type: boolean
-  name: ShowToc
-  label: ShowToc
