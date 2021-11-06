@@ -1,6 +1,6 @@
 baseURL = "https://amohamed.io"
 languageCode = "en-us"
-title = "Anas Mohamed"
+title = "Anecdotal Thoughts"
 theme = "lines"
 disableKinds = ["section", "categories"]
 disqusShortname = ""
