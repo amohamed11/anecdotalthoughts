@@ -14,3 +14,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/posts/writing-for-the-sake-of-writing.md
