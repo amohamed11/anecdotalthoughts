@@ -35,10 +35,8 @@ minify = true
   author = "Anas Mohamed"
   copyright = "Anas Mohamed"
   logo = "favicon.ico"
-
-[umami]
-  id = "4542f001-7f6b-45e9-aa54-40187f723107"
-  url = "https://anecdotal-umami.herokuapp.com/umami.js"
+  umami_id = "4542f001-7f6b-45e9-aa54-40187f723107"
+  umami_url = "https://anecdotal-umami.herokuapp.com/umami.js"
 
 [frontmatter]
   date  = [":filename", ":default"]
