@@ -15,4 +15,5 @@ fields:
   name: tags
   label: tags
 pages:
+- content/posts/the-abundance-of-software-missionaries.md
 - content/posts/writing-for-the-sake-of-writing.md
