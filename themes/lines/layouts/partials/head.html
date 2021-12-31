@@ -14,7 +14,6 @@
   <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
-  <script async defer data-website-id="{{ .Site.Params.umami_id }}" src="{{ .Site.Params.umami_url }}"></script>
 
   {{ if .IsHome -}}
 <script type="application/ld+json">
