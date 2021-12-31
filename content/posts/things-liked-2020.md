@@ -2,7 +2,7 @@
 title: "Things I Liked in 2020 (So far)"
 description: "Ah nothing but good times."
 date: 2020-11-11
-tags: ["fun", "games"]
+tags: ["year-review", "talks", "games"]
 ---  
 
 This year has been something. Still though, I want to start of this blogging thing on a good note. So, here is a compilation of things that I got to enjoy in 2020 so far.
