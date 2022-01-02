@@ -42,6 +42,11 @@ minify = true
   github = "https://github.com/amohamed11"
   sitename = "Anas Mohamed"
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 2
+
 [permalinks]
   posts = "/:filename"
   pages = "/:slug"

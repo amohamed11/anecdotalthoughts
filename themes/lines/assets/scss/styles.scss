@@ -1,12 +1,11 @@
 *,:after,:before {
   box-sizing:border-box;
-  /*margin:0;*/
   padding:0;
 }
 
 body {
   font: 1rem/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
-  text-rendering:optimizeSpeed;
+  text-rendering: optimizeLegibility;
   background-color: #1F2430;
 }
 
@@ -19,12 +18,11 @@ body {
   border: none;
   border-bottom: 1px #353535;
   flex: 1 0 1rem;
-  //opacity: .25;
 }
 
 
 main {
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 2ch;
   margin: auto;
 }
@@ -40,6 +38,14 @@ a {
 
 h1, h2, h3, h4 {
   color: #FFAD66;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 ::selection, a:focus, a:hover {

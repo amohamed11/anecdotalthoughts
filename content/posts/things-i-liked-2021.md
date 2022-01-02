@@ -1,15 +1,15 @@
-+++
-date = 2021-12-31T08:30:00Z
-tags = ["year-review", "books", "games", "music"]
-title = "Things I Liked in 2021"
-+++
+---
+date: 2021-12-31T08:30:00Z
+tags: ["year-review", "books", "games", "music"]
+title: "Things I Liked in 2021"
+toc: true
+---
+
+## 2021 Patch Notes
 
 > "One of the strange things about adulthood is that you are your current self, but you are also all the selves you used to be, the ones you grew out of but can't ever quite get rid of."
 > 
 > -- John Green, *The Anthropocene Reviewed*
- 
-
-### 2021 Patch Notes
 
 Notable events & personal changes in 2021.
 
@@ -20,7 +20,7 @@ Notable events & personal changes in 2021.
 - My appreciation for the humanities grew more than anything else this past year. From philosophy and history to the written word and music.
 
 
-### Learned
+## Learned
 
 > "Confusion is part of programming."
 > 
@@ -37,7 +37,7 @@ Few programming languages & general concepts that I learned about that really st
 - Rust ⇒ fantastic community, best-in-class tooling, but the borrow checker still confuses me at times.
 - Go ⇒ also amazing tooling, focus on simplicity & readability, and convention over configuration (which I kinda like)
 
-### Watched
+## Watched
 
 Watched way more movies this year, and way less anime. Consequently, got a ton of anime to binge through in 2022 (even though next year is looking packed for anime).
 
@@ -57,7 +57,7 @@ Taika Waititi is an absolute gem. Watch this now ... or when you have time, no r
 Never have I ever laughed at mere camera shots & angles as much as I have in this movie. The Grand Budapest Hotel could've easily been a silent movie, and maintain its humor. The peak of visual comedy.
 
 
-### Played
+## Played
 
 Played waaaay less singleplayer games this year. For better or worse, gaming has become a medium for hanging out with friends more than anything else. Regardless, it has been a fun year of gaming for me. Here is to more fun to be had in 2022.
 
@@ -80,7 +80,7 @@ Only played the Multiplayer, but as person that never played Halo growing up, I 
 A simple but addictive rogue-like. No wonder it has inspired so many card rogue-likes. One day I'll beat that damn tower, but that day will not be in 2021.
 
 
-### Read
+## Read
 
 > "A good bookshop is just a genteel Black Hole that knows how to read."
 > 
@@ -120,7 +120,7 @@ A sci-fi exploration of death, the profound effect of its eventuality on the hum
 A manga about art, talent, hardwork, and the beauty in pursuing what you love. There are a handful number of manga that have truly inspired me, and few did it in as gorgeous panels as Blue Period did.
 
 
-### Listened to
+## Listened to
 
 In 2021, I have listened to and enjoyed more genres than I knew existed in previous years. It's weird looking at my playlists from 2020 & before, and seeing how picky I was. So going into 2022, I know I will enjoy way more music than my past, extremely picky taste, would have allowed me to enjoy.
 

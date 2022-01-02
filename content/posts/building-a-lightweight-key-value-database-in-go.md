@@ -6,7 +6,7 @@ tags:
   - project
   - databases
   - go
-ShowToc: true
+toc: true
 ---
 This will be more of a high-level technical overview of key-value database design using notes from my research while working on [Kagi](https://github.com/amohamed11/kagi), a on-disk key-value store. 
 

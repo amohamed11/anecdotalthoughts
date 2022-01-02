@@ -1,10 +1,10 @@
-+++
-date = 2021-11-27T09:30:00Z
-description = "Don't be a Software Missionary"
-tags = ["software development", "industry", "thoughts"]
-title = "The Abundance of Software Missionaries"
+---
+date: 2021-11-27T09:30:00Z
+description: "Don't be a Software Missionary"
+tags: ["industry", "essay"]
+title: "The Abundance of Software Missionaries"
+---
 
-+++
 Few years ago, I was checking out the highly regarded [_Structure and Interpretation of Computer Programs_](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) textbook, mostly on a whim to see what made it so influential. And while it is not the most difficult read, suffice to say, my efforts were not long-lived. But regardless, a few ideas did stick with me, such as programming being the marriage of procedures and data. Yet, what stuck with me even moreso, was the opening dedication to [Alan Perlis](https://en.wikipedia.org/wiki/Alan_Perlis). I encourage you to read the whole paragraph as it is heartwarming & uplifting in its hopefulness, but the main part that stuck with me was Perlis saying
 
 > I hope the field of computer science never loses its sense of fun. Above all, I hope we don’t become missionaries. Don't feel as if you're Bible salesmen. The world has too many of those already.

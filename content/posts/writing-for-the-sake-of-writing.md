@@ -1,10 +1,10 @@
-+++
-date = 2021-11-06T06:00:00Z
-description = "Writing is fun."
-tags = ["thoughts", "writing"]
-title = "Writing for the Sake of Writing"
+---
+date: 2021-11-06T06:00:00Z
+description: "Writing is fun."
+tags: ["thoughts", "writing"]
+title: "Writing for the Sake of Writing"
+---
 
-+++
 I remember one occasion where younger me, bored in class while the teacher read from some novel that should have instead been a play, opened my notes and scribbled down an incredibly original origin story for a super-hero called Lotus, which innovatively involved explosions & laboratories. My teacher, having noticed my head in my notebook, approached me, took my notes and read it before briefly commenting "glad you enjoy writing, but do it some other time".
 
 There is no real significance to this story. Matter-of-fact I had completely forgotten about it, until I had started drafting this post. Yet, it encapsulate what my attitude towards writing, fiction or non, had become. The idea, that there is always something more important, more meaningful and more productive to do (god forbid you are not productive for a breath or two) than sitting down and simply writing.
