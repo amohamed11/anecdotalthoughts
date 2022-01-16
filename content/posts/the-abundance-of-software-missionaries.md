@@ -1,7 +1,6 @@
 ---
 date: 2021-11-27T09:30:00Z
 description: "Don't be a Software Missionary"
-tags: ["industry", "essay"]
 title: "The Abundance of Software Missionaries"
 ---
 

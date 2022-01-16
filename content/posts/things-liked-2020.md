@@ -2,7 +2,6 @@
 title: "Things I Liked in 2020 (So far)"
 description: "Ah nothing but good times."
 date: 2020-11-11
-tags: ["year-review", "talks", "games"]
 toc: true
 ---
 

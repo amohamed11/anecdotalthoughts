@@ -2,10 +2,6 @@
 title: Building a Lightweight Key-Value Database in Go
 description: On-disk B+trees & other midly extreme sports.
 date: 2021-05-18T23:12:25.004Z
-tags:
-  - project
-  - databases
-  - go
 toc: true
 ---
 This will be more of a high-level technical overview of key-value database design using notes from my research while working on [Kagi](https://github.com/amohamed11/kagi), a on-disk key-value store. 

@@ -1,6 +1,5 @@
 ---
 date: 2021-12-31T08:30:00Z
-tags: ["year-review", "books", "games", "music"]
 title: "Things I Liked in 2021"
 toc: true
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2021-11-06T06:00:00Z
 description: "Writing is fun."
-tags: ["thoughts", "writing"]
 title: "Writing for the Sake of Writing"
 ---
 

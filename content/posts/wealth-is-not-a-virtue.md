@@ -1,6 +1,5 @@
 ---
 title: Wealth is not a Virtue
-tags: ["rant", "capitalism", "education"]
 date: 2022-01-13
 ---
 

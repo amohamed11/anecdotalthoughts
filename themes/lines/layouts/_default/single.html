@@ -9,9 +9,8 @@
       {{ if eq .Type "posts" }}
       <h1 itemprop="name headline">{{ .Title }}</h1>
       <p class="meta">
-        <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat " January 02, 2006" .Date }}</time> &bull; 
-        {{ partial "tags.html" .}}
-        </p>
+        <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat " January 02, 2006" .Date }}</time>
+      </p>
       {{ end }}
 
       {{ partial "toc.html" . }}
