@@ -71,19 +71,19 @@ minify = true
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name       = "Home"
+    identifier = "posts"
+    name       = "~/posts"
     url        = "/"
     weight     = -111
 
   [[menu.main]]
     identifier = "about"
-    name       = "About"
-    url        = "/about/"
+    name       = "~/about"
+    url        = "/about"
     weight     = -20
 
   [[menu.main]]
     identifier = "rss"
-    name       = "RSS"
+    name       = "~/rss"
     url        = "/atom.xml"
     weight     = -10
