@@ -1,0 +1,88 @@
+\documentclass[10pt]{article}
+    \usepackage[english]{babel}
+    \input{config/minimal-resume-config}
+    \begin{document}
+    
+\begin{center}
+	% Personal
+	% -----------------------------------------------------
+	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} ANAS MOHAMED}
+	\\
+	\vspace{2mm}
+	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} mail@amohamed.ca -- https://github.com/amohamed11}
+\end{center}
+% Chapter: Work Experience
+% ------------------------
+\chap{EXPERIENCE}{
+	
+	\job
+	{Areto Labs}
+	{Oct 2021 – Present}
+	{Software Developer (Python, Flask, GCP)}
+	{Remote, Canada}
+	{\begin{newitemize}
+		\item {Worked on porting Probot, twitter sentiment analysis bot, to other social medias and investigating their APIs.}
+		\item {Contributed to major refactoring of core database tables, along with re-designing the overall architecture of Areto\textquotesingle{}s core services.}
+		\item {Developed central Areto account system to connect various services.}
+		\end{newitemize}}
+	\job
+	{Eclipse OpenJ9 (Open-Source)}
+	{Sept 2020 – Jan 2021}
+        {Open Source Contributer (C++)}
+	{https://github.com/eclipse/openj9-utils}
+	{\begin{newitemize}
+                \item {Worked in student team under mentorship of IBM engineers to contirbute to the OpenJ9 platform.}
+		\item {Contributed to the development of a tool for collecting Eclipse OpenJ9\textquotesingle{}s runtime performance utilizing JVMTI for JVM metrics, and perf for system level metrics.}
+		\end{newitemize}}
+	\job
+	{DevFacto}
+	{Jan 2019 – Sept 2019}
+	{Junior Consultant (C\#, .NET Core, Typescript, React, Azure)}
+	{Edmonton, Alberta, Canada}
+	{\begin{newitemize}
+		\item {Worked on a Geo-mapping web application for managing trailer inventory on construction site. Set up an audit log system, and wrapped up the project for final delivery.}
+		\item {Developed and delivered a flexible questionnaire system for commercial use with an easily extensible questionnaire database.}
+		\item {Collaborated with UI/UX designers in researching user requirements, stakeholder interview and developing end-user interfaces.}
+		\end{newitemize}}
+}
+% Chapter: Education
+% ------------------
+
+\chap{EDUCATION}{
+	
+	\school
+	{University of Alberta}
+	{Sep 2016 – Jun 2021}
+	{Bachelor of Science with Specialization, Computing Science}
+	{Edmonton, Alberta}
+	{
+	}
+}
+% Chapter: Skills
+% ------------------------
+
+\chap{SKILLS}{
+	\begin{newitemize}
+		\item Frameworks/Libraries: Flask, Ruby on Rails, Django, React
+		\item Programming Languages: Go, C/C++, Python, Javascript/Typescript
+		\item Databases/Cloud Infrastructure: SQLite, PostgreSQL, Heroku, GCP, AWS
+		\item Development Tools: Linux, Vim/Neovim, VSCode, Git
+	\end{newitemize}
+}
+% Chapter: Projects
+% ------------------------
+
+\chap{PROJECTS}{
+	
+	\project
+	{Kagi}
+	{Go}
+	{https://github.com/amohamed11/kagi}
+	{A lightweight B+Tree-based on-disk key-value store implemented from scratch in Go.\\}
+		\project
+		{Pinbooru}
+		{Ruby on Rails, PostgreSQL, AWS S3, Heroku}
+                {https://github.com/amohamed11/pinbooru/}
+		{A dead-simple image board, where users can create posts with multiple images.\\}
+		}
+\end{document}
