@@ -63,17 +63,17 @@ h2 {
 }
 
 code,pre {
-  background-color: #0B0E14;
-  color: #73D0FF;
   font-family: San Francisco Mono,Monaco,"Consolas","Lucida Console","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   font-size: normal;
   border: 1px solid #353535;
+  border-radius: 8px;
   font-size: small;
 }
 
 code {
-  padding: .1rem;
-  border: none;
+  color: #FFAD66;
+  padding: 0.1rem 0.4rem;
+  background: #111;
 }
 
 pre {
@@ -84,6 +84,12 @@ pre {
 pre code {
   border: none;
 }
+
+blockquote {
+  border: 2px dotted #D5FF80;
+  padding-left: 1rem;
+}
+
 
 img {
   max-width:100%;
@@ -127,10 +133,6 @@ header,section, footer {
   padding:1rem 0;
 }
 
-blockquote {
-  border-left: 5px solid #353535;
-  padding-left: 1rem;
-}
 .posts ul,header ul, footer ul {
   list-style:none;
 }

@@ -11,9 +11,9 @@ You see, the thing with not shovelling consecutive days of snow is that the inte
 
 With disregarded & unshovelled snow, just as with accidentally accrued technical debt, the one who always ends up paying the price is yourself - or at least it would be if a career in this industry did not hinge on job-hopping, resulting in `git blame` being borderline useless - and your team as a whole. When you want to go outside (read: fix bugs, and add features) it becomes a balancing game and a struggle with inches of snow. And when you finally buckle up to shovel properly (read: refactor) it ends up taking X times (where X is a function of time left untouched) the original effort if you had just done it from the get-go. The bottom layer of the snow, now turned rock-like ice, becomes increasingly difficult to remove. Just as those short-sighted architectural design decisions that become unmovable glacials your critical systems have now been built on. Systems that have long ago turned into a [big ball of mud](http://www.laputan.org/pub/foote/mud.pdf), and are now too large, too complicated, and too obtuse to refactor in a reasonable time without breaking everything else that is dependent on it.
 
-> Systems that are permitted to evolve gracefully in a series of small, controlled stages can stay the seismic upheaval that can result from deferring change.
+> "Systems that are permitted to evolve gracefully in a series of small, controlled stages can stay the seismic upheaval that can result from deferring change."
 >
-> Foote & Yoder - [Evolution, Architecture, and Metamorphosis](http://www.laputan.org/pub/foote/plop95.pdf) 
+> -- Foote & Yoder - [Evolution, Architecture, and Metamorphosis](http://www.laputan.org/pub/foote/plop95.pdf) 
 
 Just like how with snow, simply shovelling even a few layers of today's snow will pay off big time when you have to shovel even more snow tomorrow, incremental refactoring will pay off by delaying or all on ending the need for the complete upheaval of your codebase. So, next time you notice that one function is getting a bit too long & obtuse in what it does and is also somehow being called by everything else, try to take the time to shovel a few layers of it here and there, or it too will become as solid as granite and will require a much sharper shovel.
 

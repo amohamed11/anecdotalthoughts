@@ -4,7 +4,7 @@ title = "Anecdotal Thoughts"
 theme = "lines"
 disableKinds = ["section", "categories"]
 disqusShortname = ""
-pygmentsCodeFences = false
+pygmentsCodeFences = true
 pygmentsUseClasses = false
 paginate = 999
 minify = true
@@ -46,6 +46,8 @@ minify = true
   [markup.tableOfContents]
     endLevel = 4
     startLevel = 2
+  [markup.highlight]
+    style = 'fruity'
 
 [permalinks]
   posts = "/:filename"

@@ -9,9 +9,9 @@ title: Now
 
 ### Evergreen goals
 
-> A big part of becoming a wizard is understanding how a seemingly magical computer system works.
+> "A big part of becoming a wizard is understanding how a seemingly magical computer system works."
 >
-> [Julia Evans](https://jvns.ca/wizard-zine.pdf)
+> -- [Julia Evans](https://jvns.ca/wizard-zine.pdf)
 
 - Learn more about how computers & software work, so I can level up as a wizard.
 - Contribute more to open-source projects.
@@ -31,11 +31,12 @@ title: Now
 
 **Currently**
 
-- The Prophet by Kahlil Gibran 
+-  *Artifact Space* by Miles Cameron 
 
 **Read in 2021**
 
-1. *The Order of Time by Carlo Rovelli* --> beautiful book that forever alters the concept of time to me. 4/5
-2. *Foundation by Isaac Asimov* --> really cool concept with original ideas that have aged amazingly well. 4/5
-3. *Letters to a Young Poet by Rainer Maria Rilke* --> surprisingly coherent thematically considering it's a series of letters over 5 years. Regardless it obscure in its exploration of solitude. 3/5
+1. *The Order of Time* by Carlo Rovelli --> beautiful book that forever alters the concept of time to me. 4/5
+2. *Foundation* by Isaac Asimov --> really cool concept with original ideas that have aged amazingly well. 4/5
+3. *Letters to a Young Poet* by Rainer Maria Rilke --> surprisingly coherent thematically considering it's a series of letters over 5 years. Regardless it obscure in its exploration of solitude. 3/5
+4. *The Prophet* by Kahlil Gibran --> beautiful & poetic prose with many memorable one-liners & metaphors. Basically what self-help books whish they were. 3.5/5
 
