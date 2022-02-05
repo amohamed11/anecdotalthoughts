@@ -5,6 +5,13 @@ date: 2020-11-11
 toc: true
 ---
 
+---
+
+*Updated 02/02/2022*:  
+Removed "to be continued" section, and a talk by Robert C. Martin. Turns out he's *quite* the asshole.
+
+---
+
 This year has been something. Still though, I want to start of this blogging thing on a good note. So, here is a random compilation of things that I got to enjoy in 2020 so far.
 
 <br>
@@ -19,14 +26,6 @@ Every once and a while I go on a tech talk binge. Below are some of my recent fa
 Like most programmers, I think of coding only in the context of productivity. Whether it be work, school, or side projects, they are done for an external benefit or to solve a problem. Dylan Beattie instead explores coding as an art medium. He goes through many examples of the wild things that people have created. My favorite being the Quine Relay, a program that generates a program in different programming language which itself does the same for a continuous cycle that cover 128 programming languages.  
 This talk is just non-stop mind-blowing demonstrations of human creativity in this tech era.
 
-### Clean Code - Uncle Bob  
-
-[![Thumbnail for Clean Code - Uncle Bob Video](https://i.ytimg.com/vi_webp/7EmboKQH8lM/maxresdefault.webp)](https://www.youtube.com/watch?v=7EmboKQH8lM)
-
-
-
-A series of 6 lessons by Robert C. Martin (affectionately referred to as Uncle Bob). I just started on this series of lessons recently, but as always listening to Uncle Bob is nothing short of mesmerizing. There are few in the industry with the knowledge and expertise in software development like Uncle Bob, and even fewer that articulate that knowledge as well as he does.   
-If you are unfamiliar with Uncle Bob, I recommend checking out his book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) and my favorite talk of his [The Scribe's Oath](https://www.youtube.com/watch?v=Tng6Fox8EfI).  
 
 ### Compilers For Nothing, Executables For Free! 
 
@@ -62,7 +61,3 @@ I'm still working through this game currently, but I can sing it nothing but pra
 In a twisted way, Supergiant Games made dying in Hades somehow a truly enjoyable experience. If that sounds up your ally, than definitely give this a try, cause I truly believe there is something in this game for everyone to enjoy.
 
 <br>
-
-## To be continued
-
-This article has gotten longer than I had anticipated, so I'll call it here for now. But, I will append a part 2 to this before the year ends, with more things I enjoyed including Blogs, Books, TV/Movie, and Anime. Hopefully with more recent & fresh things to rave about next time.
