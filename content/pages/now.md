@@ -2,7 +2,7 @@
 title: Now
 ---
 
-*updated feb 1st*  
+*updated feb 12th*  
 *inspired by the [/now](https://sive.rs/nowff) movement*  
 
 ### Evergreen goals
@@ -29,12 +29,13 @@ title: Now
 
 **Currently**
 
+-  *Capital in the Twenty-First Century* by Thomas Piketty 
 -  *Artifact Space* by Miles Cameron 
 
 **Read in 2021**
 
 1. *The Order of Time* by Carlo Rovelli --> beautiful book that forever alters the concept of time to me. 4/5
 2. *Foundation* by Isaac Asimov --> really cool concept with original ideas that have aged amazingly well. 4/5
-3. *Letters to a Young Poet* by Rainer Maria Rilke --> surprisingly coherent thematically considering it's a series of letters over 5 years. Regardless it obscure in its exploration of solitude. 3/5
-4. *The Prophet* by Kahlil Gibran --> beautiful & poetic prose with many memorable one-liners & metaphors. Basically what self-help books whish they were. 3.5/5
+3. *Letters to a Young Poet* by Rainer Maria Rilke --> surprisingly coherent thematically considering it's a series of letters over 5 years. Regardless it obscure in its exploration of solitude. 2/5
+4. *The Prophet* by Kahlil Gibran --> beautiful & poetic prose with many memorable one-liners & metaphors. Basically what self-help books whish they were. 3/5
 

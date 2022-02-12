@@ -24,6 +24,6 @@ Many of these are incomplete and are in disarray (thanks to being exported from 
 Assortment of one-off notes from classes.
 
 - [How to Read a Paper (good read)](/notes/how_to_read_a_paper/)
-- [Notes on Classes in C++](/notes/notes_on_classes_in_c++/)
+- [Notes on Classes in C++](/notes/notes_on_classes_in_cpp/)
 - [Notes on DBMS](/notes/notes_on_dbms/)
 - [Notes on Network Stack](/notes/notes_on_network_stack/)
