@@ -2,8 +2,6 @@
 title: Now
 ---
 
-# Now
-
 *updated feb 1st*  
 *inspired by the [/now](https://sive.rs/nowff) movement*  
 

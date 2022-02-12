@@ -6,6 +6,8 @@
     {{ partial "header.html" . }}
   <section>
 
+      <h1>{{ .Title }}</h1>
+
       {{ if eq .Type "posts" }}
       <h1 itemprop="name headline">{{ .Title }}</h1>
       <p class="meta">

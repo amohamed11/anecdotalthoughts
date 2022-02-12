@@ -44,13 +44,14 @@ minify = true
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 4
     startLevel = 2
+    endLevel = 4
   [markup.highlight]
     style = 'fruity'
 
 [permalinks]
   posts = "/:filename"
+  notes = "notes/:filename"
   pages = "/:slug"
   photos = "/:year/:month/:day/:filename"
 
@@ -76,16 +77,20 @@ minify = true
     identifier = "posts"
     name       = "~/posts"
     url        = "/"
-    weight     = -111
+    weight     = -110
+
+  [[menu.main]]
+    identifier = "notes"
+    name       = "~/notes"
+    url        = "/notes"
+    weight     = -80
 
   [[menu.main]]
     identifier = "about"
     name       = "~/about"
     url        = "/about"
-    weight     = -20
 
   [[menu.main]]
     identifier = "rss"
     name       = "~/rss"
     url        = "/atom.xml"
-    weight     = -10

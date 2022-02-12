@@ -2,8 +2,6 @@
 title: About
 ---
 
-# Anecdotal Thoughts
-
 Hi there 👋, I'm Anas. I recently finished wrapping up my CS degree at UAlberta, and currently work on cool stuff over at [Areto Labs](https://www.aretolabs.com/).  
 
 I enjoy mucking about & learning new stuff. This is my tiny corner on the web, and here I like to jott down my thoughts, anecdotal might they be.
