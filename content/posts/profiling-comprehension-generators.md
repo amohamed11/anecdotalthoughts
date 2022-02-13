@@ -8,11 +8,12 @@ toc: true
 >
 > -- Donald Knuth 
 
-For the most part, Python's benefits (easy to write & read, library ecosystem, etc.) out-weigh the benefits of optimizing for that 97% by switching to a compiled language. And really for most services, Python is rarely the biggest bottleneck. Most APIs needn't be scalable to gazilion requests/sec.  
+If you already have an existing service, for the most part, Python's benefits (easy to write & read, library ecosystem, etc.) out-weigh the benefits of optimizing for that 97% by switching to a compiled language. And really, for most services, Python is rarely the biggest bottleneck. I mean, most APIs needn't be scalable to gazilion requests/sec.  
 
-Regardless though, if your hot-paths include some sort of iteration over huge data, then there a two straight-forward best practices that can help tremendously. Those are defaulting to list comprehension instead of loop + append combo, and returning generators instead of returning lists. 
+Regardless though, if your hot-paths include some sort of iteration over huge data, then Python's shortcomings in speed, and its memory hungriness are hideously bare to witness. For many of these cases though, there a two simple best practices that can help alleviate those ills tremendously. Those are defaulting to list comprehension instead of loop + append combo, and returning generators instead of returning lists.  
 
-Both of these tools can yield a surprising amount of benefits for little to no extra effort. When I first read of these benefits, I thought this would be a nice chance to try out profiling Python, which I haven't done before. For this, I used Python's built-in [cProfile](https://docs.python.org/3/library/profile.html#module-cProfile) for execution time and a neat library called [memory-profiler](https://pypi.org/project/memory-profiler/) for memory usage. Check this [gist](https://gist.github.com/amohamed11/8bc40153d964c0a7cd8bf13f5f7dae9d) for the entire Python script.
+Both of these tools can yield a surprising amount of benefits for little to no extra effort. When I first read of these benefits in [Effective Python](https://effectivepython.com/), I thought this would be a nice chance to try out profiling Python code. For this, I used Python's built-in [cProfile](https://docs.python.org/3/library/profile.html#module-cProfile) for execution time and a neat library called [memory-profiler](https://pypi.org/project/memory-profiler/) for memory usage.  
+Check out this [gist](https://gist.github.com/amohamed11/8bc40153d964c0a7cd8bf13f5f7dae9d) for the entire Python script I used.
 
 ## Comprehend This Speedup
 
@@ -107,13 +108,14 @@ and here are our results
 Exhibit B: max=40.91 MiB, min=24.91 MiB, diff=16.0 MiB
 ```
 
-Oh lord, that's almost 16 MiB just to store 131,072 ints.  
-*\*few tabs later\**  
+Oh lord, that's almost 16 MiB just to store 131,072 ints. Shouldn't that be like 1MiB or so? What's up here?  
+*\*few tabs & getsizeof calls later\**  
 Huh, why are ints in Python 28 bytes minimum? that seems a bit excessive.  
 *\*even more tabs later\**  
-Every int in Python is an entire OBJECT? what? why?
+WAIT, WHAT DO YOU MEAN EVERY INT IS AN ENTIRE OBJECT IN PYTHON? WHAT? WHY DO YOU NEED A REF COUNT FOR AN INT???
 
-Phew! alright, that seems like entire rabbit hole that I do not think I want to jump into right now.  
+Phew! alright, that seems like entire rabbit hole that I do not want to jump into right now. 
+I mean, I'm sure there is good reasoning for this (better handling of large numbers maybe??), but that's an investigation for another day.
 
 Coming back to generators, let's see how much of that memory we can get back.  
 Here is the generator version
