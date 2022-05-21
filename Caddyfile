@@ -1,0 +1,15 @@
+anecdotalthoughts.com {
+	file_server
+	log {
+		output file logs
+		format json
+	}
+}
+
+grafana.anecdotalthoughts.com {
+	reverse_proxy grafana:3000
+}
+
+:2018 {
+	metrics
+}

@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  build:
+    image: klakegg/hugo:latest-ext
+    environment:
+      HUGO_DESTINATION: ./public
+    volumes:
+      - ".:/src"
+    networks:
+      - server_net
+
+  caddy:
+    image: caddy:latest
+    restart: unless-stopped
+    depends_on:
+      - "build"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "2018:2018"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./public:/srv
+      - caddy_data:/data
+      - caddy_config:/config
+      - log:/var/log/caddy
+    networks:
+      - server_net
+
+volumes:
+  caddy_data:
+    external: true
+  caddy_config:
+  log:
+
+networks:
+  server_net:
+    external: true
