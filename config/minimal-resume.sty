@@ -1,13 +1,13 @@
 \ProvidesPackage{config/minimal-resume}
 
 % margin
-\usepackage[top=0.75in, bottom=0.75in, left=0.75in, right=0.75in]{geometry}
+\usepackage[top=0.5in, bottom=0.5in, left=0.75in, right=0.75in]{geometry}
 
 % minimal custom packages
 \usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \usepackage[babel=true]{microtype}
-\usepackage[fontsize=10.75pt]{scrextend}
+\usepackage[fontsize=11pt]{scrextend}
 \usepackage{config/enumitem}
 
 \defaultfontfeatures{Ligatures=TeX}
@@ -17,18 +17,18 @@
 \newfontfamily{\crimsonfont}[Path=fonts/,ItalicFont=CrimsonText-Italic]{CrimsonText-Regular}
 
 % main font for the document
-\setmainfont[Path=fonts/, ItalicFont=CrimsonText-Italic]{CrimsonText-Regular}
+\setmainfont[Path=fonts/, ItalicFont=CrimsonText-Italic,BoldFont=CrimsonText-SemiBold]{CrimsonText-Regular}
 
 % font sizes
-\newcommand{\sizeone}{1.618em}
-\newcommand{\sizetwo}{1.318em}
+\newcommand{\sizeone}{1.218em}
+\newcommand{\sizetwo}{1.218em}
 \newcommand{\sizethree}{1em}
-\newcommand{\sizefour}{0.618em}
+\newcommand{\sizefour}{0.818em}
 \newcommand{\sizefive}{0.382em}
 \newcommand{\sizesix}{0.236em}
 
 % line spaces
-\newcommand{\linespaceone}{1}
+\newcommand{\linespaceone}{0.75}
 
 \newenvironment{newitemize}
   {\itemize[nolistsep,topsep=\sizefive,itemsep=\sizefive,labelsep=\sizefour,leftmargin=*]}
@@ -57,13 +57,13 @@
   \vspace{\sizethree}
   \raggedright
   {\hrule height 0.5pt}
-  \vspace{\sizefive}
+  \vspace{0.5em}
   \begin{addmargin}[\sizefive]{\sizefive}{
   {
   \fontsize{\sizefour}{\sizefour}\fontspec[Path = fonts/,LetterSpace=10]{Montserrat-Bold}
   \textbf{#1}
   }
-  \vspace{\sizefour}
+  \vspace{\sizesix}
   {#2}
   }
   \end{addmargin}
@@ -77,7 +77,7 @@
 }
 
 \newcommand{\school}[5]{
-  \vspace{\sizefive}
+  \vspace{0.2em}
   {\fontsize{\sizetwo}{\sizetwo}\fontspec[Path = fonts/]{CrimsonText-SemiBold} #1} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2}
 
   {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #3}\hfill{\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular}#4}\\#5
@@ -85,7 +85,7 @@
 }
 
 \newcommand{\job}[5]{
-  \vspace{\sizefive}
+  \vspace{0.2em}
   {\fontsize{\sizetwo}{\sizetwo}\fontspec[Path = fonts/]{CrimsonText-SemiBold} #1} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2}
 
   {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #3} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #4}
@@ -94,7 +94,7 @@
 }
 
 \newcommand{\project}[4]{
-  \vspace{\sizefive}
+  \vspace{0.2em}
   {\fontsize{\sizetwo}{\sizetwo}\fontspec[Path = fonts/]{CrimsonText-SemiBold} #1} {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #3}
   \\#4
   \vspace{\sizefive}

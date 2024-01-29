@@ -9,7 +9,7 @@
 	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} ANAS MOHAMED}
 	\\
 	\vspace{2mm}
-	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} mail@amohamed.ca -- https://github.com/amohamed11}
+	{\fontsize{0.8em}{0.8em}\fontspec[Path = fonts/]{Montserrat-Light} mail@amohamed.ca -- https://github.com/amohamed11}
 \end{center}
 % Chapter: Work Experience
 % ------------------------
@@ -18,12 +18,13 @@
 	\job
 	{Areto Labs}
 	{Oct 2021 – Present}
-	{Software Developer (Python, Flask, GCP)}
+	{Software Developer (Python, Flask, React(Typescript), PostgreSQL, Docker, GCP)}
 	{Remote, Canada}
 	{\begin{newitemize}
-		\item {Worked on porting Probot, twitter sentiment analysis bot, to other social medias and investigating their APIs.}
-		\item {Contributed to major refactoring of core database tables, along with re-designing the overall architecture of Areto\textquotesingle{}s core services.}
-		\item {Developed central Areto account system to connect various services.}
+		\item {Led the database design \& greenfield work for a brand new social media sentiment analyzer \& moderator, and worked on expanding support by integrating multiple 3rd party APIs.}
+		\item {Was the de-facto full-stack developer, thus worked on every part from the PostgreSQL database, and the Flask/FastAPI backend services to the the React frontend.}
+		\item {Contributed to the setting up, evolving, and maintaining of our platform's infrastructure on GCP which included containerized deployments for multiple services.}
+		\item {Mentored two interns from on-boarding and familiarzing them with the codebase, to the 1:1 check-ins and continued support.}
 		\end{newitemize}}
 	\job
 	{Eclipse OpenJ9 (Open-Source)}
@@ -31,8 +32,7 @@
         {Open Source Contributer (C++)}
 	{https://github.com/eclipse/openj9-utils}
 	{\begin{newitemize}
-                \item {Worked in student team under mentorship of IBM engineers to contirbute to the OpenJ9 platform.}
-		\item {Contributed to the development of a tool for collecting Eclipse OpenJ9\textquotesingle{}s runtime performance utilizing JVMTI for JVM metrics, and perf for system level metrics.}
+                \item {Worked in student team under mentorship of IBM engineers to contirbute to the development of a command-line tool for collecting Eclipse OpenJ9\textquotesingle{}s runtime performance stats utilizing JVMTI for JVM metrics, and perf for system level metrics.}
 		\end{newitemize}}
 	\job
 	{DevFacto}
@@ -63,10 +63,10 @@
 
 \chap{SKILLS}{
 	\begin{newitemize}
-		\item Frameworks/Libraries: Flask, Ruby on Rails, Django, React
-		\item Programming Languages: Go, C/C++, Python, Javascript/Typescript
-		\item Databases/Cloud Infrastructure: SQLite, PostgreSQL, Heroku, GCP, AWS
-		\item Development Tools: Linux, Vim/Neovim, VSCode, Git
+		\item Frameworks/Libraries: React, Flask, Ruby on Rails, Django
+		\item Programming Languages: Python, Javascript/Typescript, Go
+		\item Databases/Cloud Infrastructure: SQLite, PostgreSQL, Heroku, GCP
+% 		\item Environments/Tools: Linux, Vim/Neovim, VSCode, Git
 	\end{newitemize}
 }
 % Chapter: Projects
@@ -80,9 +80,14 @@
 	{https://github.com/amohamed11/kagi}
 	{A lightweight B+Tree-based on-disk key-value store implemented from scratch in Go.\\}
 		\project
-		{Pinbooru}
-		{Ruby on Rails, PostgreSQL, AWS S3, Heroku}
-                {https://github.com/amohamed11/pinbooru/}
-		{A dead-simple image board, where users can create posts with multiple images.\\}
-		}
+		{Hogwash}
+		{React(Typescript), Ruby on Rails, Heroku}
+		{https://github.com/amohamed11/hogwash}
+		{A word game based of balderdash but modified for the web. Built with websockets \& fun.\\}
+			\project
+			{chibiOS}
+			{Rust}
+			{https://github.com/amohamed11/chibiOS}
+			{A small operating system built in Rust, to learn more about systems programming.\\}
+	}
 \end{document}
