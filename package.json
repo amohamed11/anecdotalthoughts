@@ -1,0 +1,21 @@
+{
+  "name": "anecdotalthoughts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@tinacms/cli": "^1.6.8",
+    "@types/node": "^22.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tinacms dev -c \"hugo server -D\"",
+    "build": "npx tinacms build && hugo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinacms": "^2.2.8"
+  }
+}
