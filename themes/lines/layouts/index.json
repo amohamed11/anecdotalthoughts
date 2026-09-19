@@ -8,7 +8,7 @@
   "favicon": "{{ .Site.Params.favicon }}",
   "expired": false,
   "author": {
-    "name": "{{ .Site.Author.name }}",
+    "name": "{{ .Site.Params.author.name }}",
     "url": "{{ .Site.BaseURL }}"
   },
   "items": [
@@ -28,7 +28,7 @@
       "date_published": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "date_modified": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "author": {
-        "name": "{{ .Site.Author.name }}",
+        "name": "{{ .Site.Params.author.name }}",
         "url": "{{ .Site.BaseURL }}"
       }
     }{{ if ne (add $index 1) $len }},{{ end }}

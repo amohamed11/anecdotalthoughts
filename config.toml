@@ -1,14 +1,16 @@
 baseURL = "https://anecdotalthoughts.com"
 languageCode = "en-us"
-title = "Anecdotal Thoughts"
+title = "anecdotal thoughts"
 theme = "lines"
 disableKinds = ["section", "categories"]
 disqusShortname = ""
 pygmentsCodeFences = true
 pygmentsUseClasses = false
 paginate = 999
-minify = true
 
+
+[minify]
+  minifyOutput = true
 
 [taxonomies]
   tag = "tags"
@@ -27,12 +29,12 @@ minify = true
   [privacy.youtube]
     disable = true
 
-[Author]
-  name = "Anas Mohamed"
 
 [params]
-  description = "Anecdotal Thoughts"
-  author = "Anas Mohamed"
+  description = "anecdotal thoughts"
+  subtitle = "a log of cognitive hearsay"
+  [params.author]
+    name = "Anas Mohamed"
   copyright = "Anas Mohamed"
   logo = "favicon.ico"
 
