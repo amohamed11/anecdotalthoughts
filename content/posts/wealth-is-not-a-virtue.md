@@ -14,5 +14,4 @@ In university, I remember anyone that did not opt for a degree that is highly li
 
 Money has no intrinsic value. Instead its value is completely based on what you exchange it for. Obvious, I know. Yet somehow, we have glorified the pursuit of wealth, and prioritize working towards its attainment over almost everything else. If you go to school, you do it to find well-paying jobs, not pursue interests. If a job pays enough, we disregard any moral agency we have to justify the pay. This twisted glorification has infected every last vestibule of our society. In the dogged pursuit of wealth, we have perverted our priorities and shifted our morals. Wealth is success, and anything less is failure. The world is richer than ever, yet we deny our fellow brethren their basic needs unless they can pay. Our central systems optimize for the few over the many, and its survival hinges on the many clinging to the hope of becoming the chosen few. All is fair in the pursuit of wealth.
 
-Patience is a virtue, kindness is a virtue, wisdom is a virtue, humility is a virtue, but wealth is not. Yet we strive for the latter above all else.  
-We are not virtuous, we are wealthy.
+Patience is a virtue, kindness is a virtue, wisdom is a virtue, humility is a virtue, but wealth is not.

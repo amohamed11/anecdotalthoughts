@@ -2,7 +2,7 @@
 title: Now
 ---
 
-*updated june 16th*  
+*updated sep 19th 2026*  
 *inspired by [Sivers](https://sive.rs/nowff)*  
 
 ## Evergreen Goals
@@ -12,57 +12,37 @@ title: Now
 > -- [Julia Evans](https://jvns.ca/wizard-zine.pdf)
 
 - Learning more about how computers work.
-- Read more variety of books.
-- Try more hobbies.
-- Write more.
+- Read more books.
+- Try new hobbies.
+- Write.
 - Chill.
 
 ## Projects
 
-- [chibiOS](https://github.com/amohamed11/chibiOS): learning more about OS development via Oppermann's fantastic blog [series](https://os.phil-opp.com/).
-- [kitab](https://git.sr.ht/~anecdotal/kitab): a minimal note-taking web app built in Go with Gin & GORM. Mostly to mess around with back-end dev in Go. 
-- Reworked the blog infrastructure for fun: now deployed on a VM with Caddy for serving, and prometheus+grafana for metrics.
+- [chibiOS](https://github.com/amohamed11/chibiOS/tree/zig): building toy OS for nth time, this time with Zig cause I want to try it.
+- [cass](https://git.sr.ht/anecdotalthoughts/cass): esp32 alarm clock with separate web interface for updating schedule cause I do it too often. 
 
 ## Recently Enjoyed
 
-### Miscellenous
-
-- Warhammer 40K lore -> been binging lots of 40K lore, mostly through [Luetin09's](https://www.youtube.com/c/Luetin09/videos) amazing videos.
-- *The History of Rome* by Mike Duncan -> got interested in Roman history out of the blue, and this podcast has been fantastic for casual learning.
-
 ### Games
 
-**Currently playing (ish)**  
-- Hollow Knight
-- V Rising
-
-**Played in 2022**
-
-- *Elden Ring* -> obsessed over this game for 2 months straight for a total of 90 hours. Absolutely phenomenal game and my intro to the From Software games. **5/5**
-- *Tiny Tina Wonderland* -> surpisingly short (but fun) campagin with lots of bugs, but still a good time with friends. 2.5/5
-- *Forward: Escape the Fold* -> a fun card-based roguelike to play while having something on the background. 3/5
-- *Lost Ark* -> Great gameplay, extremely grinding; the classic Korean mmo combo. 3/5
+- **Expedition 33** - Didnt finish it but solid 20hrs and I got my fill for now. Fun combat system, cool setting, awful pacing.
+- **Skater** - Fun stuff, current steamdeck game.
+- **Ultrakill** - Got FPS itch but too lazy to play CS/Val so this is scratching that well.
 
 
 ### Music
  
 **On rotation**
 
-- *Viktor Vaughn - Vaudeville Villain*.
-- *JPEGMAFIA - LP!*
-- *Porter Robinson - Nurture. (always)*
+- *Before The World Blows - Erykah Badu*
+- *And Then You Pray For Me - Westside Gunn*
+- *GAIAAAAAAAAAA˚ - bib sama.*
+- *Tigray Funk - Sideshow*
 
 
 ### Books
 
-**Currently**
+*Recent reads but sorted by whatever order goodread RSS provides*
 
--  *Artifact Space* by Miles Cameron 
-
-**Read in 2022**
-
-1. *The Order of Time* by Carlo Rovelli --> beautiful book that forever alters the concept of time to me. 4/5
-2. *Foundation* by Isaac Asimov --> really cool concept with original ideas that have aged amazingly well. 4/5
-3. *Letters to a Young Poet* by Rainer Maria Rilke --> surprisingly coherent thematically considering it's a series of letters over 5 years. Regardless it obscure in its exploration of solitude. 2/5
-4. *The Prophet* by Kahlil Gibran --> beautiful & poetic prose with many memorable one-liners & metaphors. Basically what self-help books whish they were. 3/5
-5. *Why Fish Don't Exist* -> a beautiful interweaving narrative that mixes an autobiography, a historical biography, and more than dash of existentialism. 3/5
+{{< goodreads >}}

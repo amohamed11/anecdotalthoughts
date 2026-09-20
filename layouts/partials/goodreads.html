@@ -1,0 +1,33 @@
+{{ $feed := "https://www.goodreads.com/review/list_rss/40015335?key=Q1OoQtT_fSVN_pvXsYaBC59ibM6yYWzswdON4pfgiepLUkHM&shelf=read" }}
+{{ $limit := 6 }}
+
+{{ $opts := dict "headers" (dict "User-Agent" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36") }}
+{{ with resources.GetRemote $feed $opts }}
+  {{ $xml := .Content | transform.Unmarshal }}
+  {{ with $xml.channel }}
+    {{ $items := .item }}
+    {{ if not (reflect.IsSlice $items) }}{{ $items = slice $items }}{{ end }}
+
+    <div class="recent-reads">
+    {{ range first $limit $items }}
+      <div class="book">
+        {{ with .book_image_url }}
+          <img src="{{ . }}" alt="" loading="lazy" width="60">
+        {{ end }}
+        <div class="book-details">
+          <span><b>{{ .title }}</b></span>
+          <div class="author"><i>{{ .author_name }}</i></div>
+          {{ with .user_rating }}
+            {{ $r := int . }}
+            <div class="rating">{{ strings.Repeat $r "★" }}{{ strings.Repeat (sub 5 $r) "☆" }}</div>
+          {{ end }}
+          <div class="date">{{ substr .user_read_at 0 16 }}</div>
+          <!-- <div class="review">{{ .user_review }}</div> -->
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  {{ else }}
+    <!-- Could not parse Goodreads feed. -->
+  {{ end }}
+{{ end }}

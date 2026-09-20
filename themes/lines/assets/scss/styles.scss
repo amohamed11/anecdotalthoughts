@@ -3,8 +3,32 @@
   padding:0;
 }
 
+@font-face {
+  font-family: "Arvo";
+  src: url("/fonts/Arvo-Regular.ttf"),;
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("/fonts/Arvo-Bold.ttf"),;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("/fonts/Arvo-Italic.ttf"),;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("/fonts/Arvo-BoldItalic.ttf"),;
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
-  font: 1rem/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+  font: 1rem/2 "Arvo",helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
   text-rendering: optimizeLegibility;
   background-color: #1F2432;
 }
@@ -28,11 +52,10 @@ main {
 }
 
 body {
-  color: #CCCAC2;
+  color: #e1e1e1;
 }
 
 a {
-  background-color: #282828;
   color: #73D0FF;
 }
 
@@ -178,4 +201,15 @@ table tr {
 }
 table th, table td {
   padding: 10px 20px;
+}
+
+
+.recent-reads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.book img {
+  width: 80px;
 }
